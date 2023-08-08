@@ -8,3 +8,9 @@ spec:
       - 10.0.0.0/16
     location: centralus
     resourceGroupName: spike-I-056693-rg
+    tags:
+      CreateBy: "LocalDev"
+      CreatedBy: "08/07/2023"
+      Description: "Created for spike"
+      Owner: "Jakub Ramut"
+      BusinessUnit: "oss"
