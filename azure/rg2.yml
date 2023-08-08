@@ -1,6 +1,0 @@
-apiVersion: azure.crossplane.io/v1alpha3
-kind: ResourceGroup
-metadata:
-  name: jr-cp-rg-2
-spec:
-  location: centralus
