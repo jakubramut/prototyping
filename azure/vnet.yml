@@ -1,16 +1,16 @@
 apiVersion: network.azure.upbound.io/v1beta1
 kind: VirtualNetwork
 metadata:
-  name: crossplane-test-network
+  name: jr-cp-vnet-1
 spec:
   forProvider:
     addressSpace:
       - 10.0.0.0/16
     location: centralus
-    resourceGroupName: spike-I-056693-rg
+    resourceGroupName: jr-cp-rg-1
     tags:
       CreateBy: "LocalDev"
-      CreatedBy: "08/07/2023"
+      CreatedBy: "08/08/2023"
       Description: "Created for spike"
       Owner: "Jakub Ramut"
       BusinessUnit: "oss"

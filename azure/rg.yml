@@ -1,13 +1,13 @@
 apiVersion: azure.upbound.io/v1beta1
 kind: ResourceGroup
 metadata:
-  name: crossplanerg-test
+  name: jr-cp-rg-1
 spec:
   forProvider:
     location: centralus
     tags:
       CreateBy: "LocalDev"
-      CreatedBy: "08/07/2023"
+      CreatedBy: "08/08/2023"
       Description: "Created for spike"
       Owner: "Jakub Ramut"
       BusinessUnit: "oss"
