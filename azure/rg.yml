@@ -5,5 +5,3 @@ metadata:
 spec:
   forProvider:
     location: "Central US"
-  providerConfigRef:
-    name: default
